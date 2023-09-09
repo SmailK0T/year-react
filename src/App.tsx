@@ -27,6 +27,10 @@ function App() {
           {" "}
           Click{" "}
         </StyleBth>
+        <StyleBth btnType={"outlined"} color={myThema.color.secondary}>
+          {" "}
+          Click{" "}
+        </StyleBth>
 
         {/*  <StyleBth color="black" fontSize={"20px"}> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth>
