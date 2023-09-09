@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { type } from "os";
 import styled from "styled-components";
-import {StyleBth, SuperButton} from "./components/Button.styled";
+import { StyleBth, SuperButton } from "./components/Button.styled";
 import { Link } from "./components/Link.styled";
 import { Box } from "./components/BoxNav.styled";
 import { Menu } from "./components/Meny.styled";
@@ -11,7 +11,7 @@ import { myThema } from "./styles/Thema.stayled";
 function App() {
   return (
     <div className="App">
-   {/*    <Menu>
+      {/*    <Menu>
         <ul>
           <li><a href="">li elements 1</a></li>
           <li><a href="">li elements 2</a></li>
@@ -19,14 +19,22 @@ function App() {
         </ul>
       </Menu> */}
       <Box>
-      <StyleBth btnType={"primary"} color={myThema.grey.dark} activ> Click </StyleBth>
-      <StyleBth btnType={"outlined"} color={myThema.color.secondary}> Click </StyleBth>
-      <StyleBth activ> Click </StyleBth>
+        <StyleBth btnType={"primary"} color={myThema.grey.dark} activ>
+          {" "}
+          Click{" "}
+        </StyleBth>
+        <StyleBth btnType={"outlined"} color={myThema.color.secondary}>
+          {" "}
+          Click{" "}
+        </StyleBth>
+        <StyleBth activ> Click </StyleBth>
+        <StyleBth activ> Click </StyleBth>
+        <StyleBth activ> Click </StyleBth>
 
-       {/*  <StyleBth color="black" fontSize={"20px"}> Click </StyleBth>
+        {/*  <StyleBth color="black" fontSize={"20px"}> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth> */}
-       {/*  <SuperButton> Hover Click</SuperButton>
+        {/*  <SuperButton> Hover Click</SuperButton>
         <SuperButton as="a" href="#"> Link Click</SuperButton>
         <SuperButton as={Link} href="#"> Link Click</SuperButton> */}
       </Box>
@@ -168,6 +176,3 @@ function AccordionBody() {
   );
 } */
 export default App;
-
-
-
