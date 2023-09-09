@@ -29,6 +29,7 @@ function App() {
         </StyleBth>
         <StyleBth activ> Click </StyleBth>
         <StyleBth activ> Click </StyleBth>
+        <StyleBth activ> Click </StyleBth>
 
         {/*  <StyleBth color="black" fontSize={"20px"}> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth>
