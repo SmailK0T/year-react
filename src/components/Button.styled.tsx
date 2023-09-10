@@ -13,13 +13,14 @@ type StyleBthPropsType = {
 export const StyleBth = styled.button <StyleBthPropsType>`
   background-color: ${myThema.grey.dark};
   /* font-size: 2rem; */
-  font-size: ${props => props.fontSize || "2rem"};
+  font-size: ${props => props.fontSize || "10px"};
   font-weight: bold;
   border: none; 
   /* color: #04ff00; */
+  width: 86px;
   border-radius: 10px;
   padding: 10px 20px;
-
+  margin-top: 19px;
   &:hover {
     background-color: ${props => props.color || "#ea355c"};
   }
@@ -29,8 +30,8 @@ export const StyleBth = styled.button <StyleBthPropsType>`
   } */
 
 ${props => props.btnType === "outlined" && css<StyleBthPropsType>`
-  border: 2px solid ${props => props.color || "#C884E6"};
-  color: ${props => props.color || "#C884E6"};
+  border: 2px solid ${props => props.color || "#4E71FE"};
+  color: ${props => props.color || "#4E71FE"};
   background-color: transparent;
 `}
 
@@ -38,12 +39,12 @@ ${props => props.btnType === "outlined" && css<StyleBthPropsType>`
 
 ${props => props.btnType === "primary" && css<StyleBthPropsType>`
   color: #eaeaea;
-  background-color: ${props => props.color || "#C884E6"};
+  background-color: ${props => props.color || "#4E71FE"};
   
 `}
 // outlined
 ${props => props.activ && css<StyleBthPropsType>`
-&:hover {
+  &:hover {
     background-color: transparent;
     border: 2px solid ${props => props.color || "#ea355c"};
     color: ${props => props.color || "#ea355c"};
@@ -51,6 +52,6 @@ ${props => props.activ && css<StyleBthPropsType>`
 `}
 `
 export const SuperButton = styled(StyleBth) `
-  color: yellow;
+  color: #ffffff;
   animation: ${MyAnimations} 2s ease-in-out;
 `

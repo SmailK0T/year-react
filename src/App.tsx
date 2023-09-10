@@ -8,14 +8,25 @@ import { Link } from "./components/Link.styled";
 import { Box } from "./components/BoxNav.styled";
 import { Menu } from "./components/Meny.styled";
 import { myThema } from "./styles/Thema.stayled";
-import {CardsStyled, HeaderStyled} from "./components/Header.styled";
+import {ButtonBox, CardsStyled, HeaderStyled, ImgLogoStyled, SectionStyle, TextBoxStyled} from "./components/Header.styled";
 
 function App() {
   return (
     <div className="App">
       <HeaderStyled>
         <CardsStyled>
-            <img src="./Img/Rectangle 1.png" alt="Images" />
+          <SectionStyle>
+            <div><ImgLogoStyled src="./Img/Rectangle 1.png" alt="Img"/></div>
+            <TextBoxStyled>
+              <h1>Header</h1>
+              <p>Faucibus. Faucibus. Sit sit sapien sit <br /> tempusrisu ut. Sit molestie ornare in venen.</p>
+            </TextBoxStyled>
+          </SectionStyle>
+          <ButtonBox>
+            <StyleBth btnType="primary">See more</StyleBth>
+            <StyleBth btnType="outlined" activ>Save</StyleBth>
+          </ButtonBox>
+          
         </CardsStyled>
       </HeaderStyled>
       {/*    <Menu>

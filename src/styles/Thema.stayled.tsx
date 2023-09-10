@@ -3,6 +3,7 @@ export const myThema = {
     color:{
         primary: "gold",
         secondary: "pink",
+        fonColor: "#c8c5c5f",
     },
     grey: {
         dark: "#212020",
