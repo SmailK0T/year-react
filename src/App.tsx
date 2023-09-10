@@ -16,9 +16,9 @@ function App() {
       <HeaderStyled>
         <CardsStyled>
           <SectionStyle>
-            <div><ImgLogoStyled src="./Img/Rectangle 1.png" alt="Img"/></div>
+            <div><ImgLogoStyled src={require('./Img/Rectangle 1.jpg')} alt="Img"/></div>
             <TextBoxStyled>
-              <h1>Header</h1>
+              <h1>Headline</h1>
               <p>Faucibus. Faucibus. Sit sit sapien sit <br /> tempusrisu ut. Sit molestie ornare in venen.</p>
             </TextBoxStyled>
           </SectionStyle>

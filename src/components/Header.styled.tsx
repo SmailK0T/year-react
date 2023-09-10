@@ -33,7 +33,7 @@ export const ImgLogoStyled = styled.img`
 `
 export const TextBoxStyled = styled.div `
   display: flex;
-  margin-left: 20px;
+  margin: 20px 0 0 20px;
   h1 {
     font-size: 16px;
   }
