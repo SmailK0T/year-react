@@ -26,7 +26,6 @@ function App() {
             <StyleBth btnType="primary">See more</StyleBth>
             <StyleBth btnType="outlined" activ>Save</StyleBth>
           </ButtonBox>
-          
         </CardsStyled>
       </HeaderStyled>
       {/*    <Menu>
