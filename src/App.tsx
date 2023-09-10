@@ -8,9 +8,16 @@ import { Link } from "./components/Link.styled";
 import { Box } from "./components/BoxNav.styled";
 import { Menu } from "./components/Meny.styled";
 import { myThema } from "./styles/Thema.stayled";
+import {CardsStyled, HeaderStyled} from "./components/Header.styled";
+
 function App() {
   return (
     <div className="App">
+      <HeaderStyled>
+        <CardsStyled>
+            <img src="./Img/Rectangle 1.png" alt="Images" />
+        </CardsStyled>
+      </HeaderStyled>
       {/*    <Menu>
         <ul>
           <li><a href="">li elements 1</a></li>
@@ -18,7 +25,7 @@ function App() {
           <li><a href="">li elements 3</a></li>
         </ul>
       </Menu> */}
-      <Box>
+      {/*<Box>
         <StyleBth btnType={"primary"} color={myThema.grey.dark} activ>
           {" "}
           Click{" "}
@@ -38,15 +45,16 @@ function App() {
         <StyleBth btnType={"outlined"} color={myThema.color.secondary}>
           {" "}
           Click{" "}
-        </StyleBth>
+        </StyleBth>*/}
 
         {/*  <StyleBth color="black" fontSize={"20px"}> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth>
         <StyleBth color="black"> Click </StyleBth> */}
         {/*  <SuperButton> Hover Click</SuperButton>
         <SuperButton as="a" href="#"> Link Click</SuperButton>
-        <SuperButton as={Link} href="#"> Link Click</SuperButton> */}
-      </Box>
+        <SuperButton as={Link} href="#"> Link Click</SuperButton>
+
+      </Box> */}
       {/* <PaigeTitle title={"Component"} />
       <PaigeTitle title={"Component 2"} />
       <Rating value={1} />
