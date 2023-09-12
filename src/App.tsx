@@ -8,6 +8,7 @@ import { Link } from "./components/Link.styled";
 import { Box } from "./components/BoxNav.styled";
 import { Menu } from "./components/Meny.styled";
 import { myThema } from "./styles/Thema.stayled";
+import cardimage from "./Img/Rectangle 1.jpg"
 import {ButtonBox, CardsStyled, HeaderStyled, ImgLogoStyled, SectionStyle, TextBoxStyled} from "./components/Header.styled";
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
       <HeaderStyled>
         <CardsStyled>
           <SectionStyle>
-            <div><ImgLogoStyled src={require('./Img/Rectangle 1.jpg')} alt="Img"/></div>
+            <div><ImgLogoStyled src={cardimage} alt="Img"/></div>
             <TextBoxStyled>
               <h1>Headline</h1>
               <p>Faucibus. Faucibus. Sit sit sapien sit <br /> tempusrisu ut. Sit molestie ornare in venen.</p>
